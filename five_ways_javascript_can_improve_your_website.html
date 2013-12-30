@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>five_ways_javascript_can_improve_your_website</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* Solarized (Light) */
+/* Authors: Ethan Schoonover: http://ethanschoonover.com/solarized, CodeCatalyst: http://codecatalyst.com/ */
+/* Version: d9a83f4e7a47432baff86e1e7946d9e066cf3d1b (modified) */
+/* https://github.com/CodeCatalyst/mou-theme-solarized */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ol,
+ul,
+li,
+img {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html * {
+  font-family: "ff-din-web-pro-1", "ff-din-web-pro-2", sans-serif;
+  font-size: 16px;
+  line-height: 19.2px;
+  color-profile: sRGB;
+}
+body {
+  min-width: 32em;
+  max-width: 52em;
+  margin: 10px;
+}
+p {
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+strong {
+  font-weight: bold;
+}
+ol,
+ul {
+  margin-left: 2em;
+  margin-bottom: 20px;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: 10px;
+}
+li {
+  margin-bottom: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: lighter;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 24.624px;
+  line-height: 29.548799999999996px;
+}
+h2 {
+  font-size: 24.624px;
+  line-height: 29.548799999999996px;
+}
+h3 {
+  font-size: 23.44px;
+  line-height: 28.128px;
+}
+h4 {
+  font-size: 22.16px;
+  line-height: 26.592px;
+}
+h5 {
+  font-size: 22.16px;
+  line-height: 26.592px;
+}
+h6 {
+  font-size: 22.16px;
+  line-height: 26.592px;
+}
+img {
+  margin-bottom: 20px;
+}
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img,
+p img {
+  margin-bottom: 0;
+}
+pre {
+  margin-bottom: 20px;
+}
+pre,
+code {
+  font-family: monospace;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 15px;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+h2 {
+  border-bottom: 1px solid;
+}
+h3,
+h4,
+h5,
+h6 {
+  border-bottom: none;
+}
+html * {
+  color: #657b83;
+}
+html body {
+  background-color: #fdf6e3;
+}
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  color: #586e75;
+  border-color: #657b83;
+}
+html a,
+html a:active,
+html a:visited {
+  color: #586e75;
+}
+html a:hover {
+  background-color: #eee8d5;
+}
+html pre {
+  color: #586e75;
+  background-color: #eee8d5;
+}
+html a,
+html a:active,
+html a:visited,
+html code.url {
+  color: #b58900;
+}
+html h1 {
+  color: #b58900;
+}
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  color: #b58900;
+}
+
+/*
+LICENSE
+
+Solarized Theme for Mou
+
+Copyright (c) 2012 CodeCatalyst, LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Solarized
+
+Copyright (c) 2011 Ethan Schoonover
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+</style>
+</head>
+<body>
+<h1>Five Ways Javascript can improve your website</h1>
+<p><em>Flash</em> is not the best way of giving your users the best experience anymore. Use <em>Javascript</em> instead. It's based on open web standards and is not controlled by just one commercial entity. It is the future of the web.</p>
+<p>Here are five ways in which Javascript can be used to improve your website:</p>
+<h3>Loading new content or submitting data without reloading the page</h3>
+<p>The improvement of bandwidth over the years have decreased the users' patience for slow-loading pages. If users don't see anything happening on the page after they do something (e.g. click a button), they'd easily think that the website is not functioning and then move on to visit other sites. </p>
+<p>This problem is now solved with a Javascript technique called <a href="http://en.wikipedia.org/wiki/Ajax_(programming)">AJAX</a>. <em>AJAX</em> enables a webpage to request new content from the server or submit data to the server without the need to reload the page. So, instead of reloading the entire page, it will simply change the current page's content and make the website feel more like a desktop application.</p>
+<p>Examples of websites using this are <a href="http://facebook.com" title="Facebook">Facebook</a> and <a href="http://gmail.com" title="Gmail">Gmail</a>.</p>
+<h3>Animation of page elements</h3>
+<p><em>Animation</em>, if used properly, can definitely enrich the user's experience on your website. There are certain uses in which animation is just an optional addition to the website experience (e.g. <a href="http://sidigital.co/" title="Si digital">Si digital</a>) and there are also some uses in which it is a must to use animation in order to convey the intended message such is in visualization of data. You can see some great examples of data visualization <a href="http://www.webdesignerdepot.com/2009/06/50-great-examples-of-data-visualization/" title="50 Great Examples of Data Visualization">here</a>.</p>
+<p>Years ago, animation on the web was made mostly through <em>Flash</em>. However, with the advances in browser technologies and the improvements in <em>HTML5</em>, <em>CSS3</em>, and <em>Javascript</em> itself, almost anything (if not all) Flash can do can also be done with the combination of HTML, CSS, and Javascript. There is generally no more reason to use Flash anymore.</p>
+<h3>Interactive content such as games, video, and audio.</h3>
+<p>Bandwidth is becoming cheaper and faster. We can now watch videos, listen to music, and play games online. As mentioned above, the improvement of web technologies enable websites to do a lot more things than what was possible years before. <em>Javascript</em> enables the delivery of media content in ways better than before. Websites have chosen to use <em>HTML5</em> and <em>Javascript</em> instead of <em>Flash</em> to deliver video and audio content on web especially on mobile devices. The reason for this is because the use of Flash video on mobile devices just drains the battery too much. For the same reason, makers of browser games use HTML5 and Javascript in order to be accessible to both desktop and mobile users alike.</p>
+<p>Check out <a href="http://www.webresourcesdepot.com/25-amazing-javascript-games-some-fun-and-inspiration/" title="25 Amazing Javascript Games">this article</a> for a list of games made with Javascript.</p>
+<h3>Validating user input in forms</h3>
+<p>The web has become an ocean of information. Websites have become not only a <em>source</em> of information but also a <em>destination</em>. Users post or share something everyday on their social networks, blogs, etc. Websites also need to ask necessary information from their users in order to provide services. If all these user input is not validated, it will cause a lot of problems when the data needs to be processed. <em>Name</em> fields should really be names. <em>Amount</em> should be a valid currency value. <em>Age</em> should be a positive whole number. <em>Gender</em> can only be male or female. <em>And so on</em>... </p>
+<p>Validation of these data can be done on the server. However, this will require the browser to send the data to the server for validation and wait for the server response to come back before the user can go on. As mentioned earlier, this waiting time may cause the user to be impatient and do other things instead.</p>
+<p>Javascript solves this problem by validating the user input on the browser usually while they are typing or just before the form gets submitted. This way, the user does not have to wait for the server response only to be told that his chosen password is blank or maybe too short.</p>
+<h3>Tracking User Behavior</h3>
+<p>Gathering feedback from the browsing habits of their website users is becoming more and more important. It is very beneficial to know which parts of the website are more appealing and which ones are not. These feedback data can also be used for tweaking the website's design and functionality for the optimum results (such as conversion or sales). This process, which is called <a href="https://www.optimizely.com/ab-testing" title="What is A/B Testing?">A/B Testing</a>, is facilitated by using Javascript to track the user actions while reading or using that specific page. If utilized properly, this technique may spell the difference between a profitable website or a losing one.</p>
+<p>Read <a href="http://kylerush.net/blog/optimization-at-the-obama-campaign-ab-testing/" title="Optimization at the Obama Campaign (A/B Testing)">this article</a> and you'll see how <em>A/B Testing</em> helped Barack Obama's 2012 presidential campaign.</p>
+<h3>Conclusion</h3>
+<p>Clearly, it is <em>imperative</em> that websites should utilize Javascript in order to make use of the the above benefits. The web has already evolved a lot. This is a technology advancement, not a fad. Hop in already, or be left out.</p>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
